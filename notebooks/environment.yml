@@ -1,0 +1,15 @@
+# conda env update -f environment.yml
+name: cdsdemo
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  - jupyterlab
+  - rise  
+  - cdsapi
+  - xarray  
+  - netcdf4  
+  - matplotlib  
+  - pip:
+    - rooki  
