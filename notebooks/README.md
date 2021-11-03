@@ -1,5 +1,20 @@
-## Information on the C3S CDS used during the TGIF
+# Demo Notebooks
 
+Create environment:
+```
+conda env create
 
-## General slides on the C3S CDS
-https://docs.google.com/presentation/d/1MmbCbASpAJJq5yUgcVXKhNwZTvrRwo_N/edit?usp=sharing&ouid=102118564710801685708&rtpof=true&sd=true
+OR
+
+mamba env create
+```
+
+Activate environment:
+```
+conda activate cdsdemo
+```
+
+Launch Jupyter Lab:
+```
+jupyter lab
+```
