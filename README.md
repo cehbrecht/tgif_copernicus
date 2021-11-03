@@ -125,7 +125,7 @@ c.retrieve(
     'download.zip')
 ```
 
-Open the notebook `notebook/cdsapi.py` and replace the data request.
+Open the notebook [notebook/cdsapi.py](https://nbviewer.org/github/atmodatcode/tgif_copernicus/blob/main/notebooks/cdsapi.ipynb) and replace the data request.
 
 Run the notebook.
 
@@ -133,6 +133,6 @@ Run the notebook.
 
 [Rooki](https://github.com/roocs/rooki) is a Python client to interact with [Rook](https://github.com/roocs/rook) data reduction service for climate model data. This service is used in the backend by the Climate Data Store to access the CMIP6 data pool. The Rook service is deployed for load-balancing at CEDA (UK), IPSL (FR) and DKRZ (DE).
 
-Open the notebook `notebooks/rooki.ipynb`.
+Open the notebook (notebooks/rooki.ipynb)[https://nbviewer.org/github/atmodatcode/tgif_copernicus/blob/main/notebooks/rooki.ipynb].
 
 Run the notebook.
