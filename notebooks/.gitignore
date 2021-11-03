@@ -1,3 +1,6 @@
 .ipynb_checkpoints/
 download
 *.zip
+*.json
+*.png
+*.nc
