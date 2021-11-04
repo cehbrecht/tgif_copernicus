@@ -21,14 +21,14 @@ https://cds.climate.copernicus.eu/
 
 ### Download CMIP6 Datasets
 
-Search Datasets for "CMIP6":
+Search Datasets for **CMIP6**:
 https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset
 
 The will let you to this download formular:
 https://cds.climate.copernicus.eu/cdsapp#!/dataset/projections-cmip6?tab=form
 
 Search:
-* Variable: Near-surface air temperature
+* Variable: Near-surface air temperature (tas)
 * Model: MPI-ESM1-2-HR (Germany)
 * Time: 2000-01-01/2000-01-31
 * Area (Africa): -40W,70E,70N,-40S
@@ -38,11 +38,11 @@ Submit Formular.
 This will open a page with your running requests:
 https://cds.climate.copernicus.eu/cdsapp#!/yourrequests
 
-### Use Toolbox Editor
+### Use Climate Data Store Toolbox Editor
 
-The Toolbox Editor provides a simliar environment like Jupyter Notebooks.
+The Toolbox Editor provides a simliar environment like [Jupyter Notebooks](https://jupyter.org/).
 But the toolbox is only available in the Climate Data Store.
-There are plans to provide a toolbox api to be used in Jupyter Notebooks.
+There are plans to provide a toolbox API to be used in your own Jupyter Notebooks.
 
 Use the same dataset search as above.
 
