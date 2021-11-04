@@ -16,7 +16,7 @@ https://cds.climate.copernicus.eu
 
 ## Part 2: Live Demo
 
-You need to register and login in Climate Data Store:
+You need to register and login to the Climate Data Store:
 https://cds.climate.copernicus.eu/
 
 ### Download CMIP6 Datasets
@@ -24,7 +24,7 @@ https://cds.climate.copernicus.eu/
 Search Datasets for "CMIP6":
 https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset
 
-The will let to this download formular:
+The will let you to this download formular:
 https://cds.climate.copernicus.eu/cdsapp#!/dataset/projections-cmip6?tab=form
 
 Search:
@@ -35,7 +35,7 @@ Search:
 
 Submit Formular.
 
-This will open running requests:
+This will open a page with your running requests:
 https://cds.climate.copernicus.eu/cdsapp#!/yourrequests
 
 ### Use Toolbox Editor
@@ -68,7 +68,7 @@ data = ct.catalogue.retrieve(
 Open the toolbox editor:
 https://cds.climate.copernicus.eu/cdsapp#!/toolbox
 
-Load or create the application to plot the CMIP6 data with the copied data request:
+Load or create the application to plot the CMIP6 data with the above data request:
 ```
 import cdstoolbox as ct
 
@@ -97,11 +97,11 @@ def plot_cmip6():
 Run the application to generate the plot.
 
 
-### Use CDS API
+### Use Climate Data Store API
 
-The [cdsapi](https://pypi.org/project/cdsapi/) is a Python library to download data from the Climate Data Store.
+The [Climate Data Store API](https://pypi.org/project/cdsapi/) is a Python library to download data from the Climate Data Store.
 
-You need an access key. Read the `cdsapi` documentation how to get the key and configure it.
+You need an access key. Read the [Climate Data Store API](https://pypi.org/project/cdsapi/) documentation how to get the access key and configure it.
 
 Use the same dataset search as above.
 
@@ -125,13 +125,15 @@ c.retrieve(
     'download.zip')
 ```
 
-Open the notebook [notebook/cdsapi.py](https://nbviewer.org/github/atmodatcode/tgif_copernicus/blob/main/notebooks/cdsapi.ipynb) and replace the data request.
+Open the notebook [notebooks/cdsapi.ipynb](https://nbviewer.org/github/atmodatcode/tgif_copernicus/blob/main/notebooks/cdsapi.ipynb) and replace the data request.
 
 Run the notebook.
 
-### Use Rooki
+### Use Rooki to access CMIP6 data
 
-[Rooki](https://github.com/roocs/rooki) is a Python client to interact with [Rook](https://github.com/roocs/rook) data reduction service for climate model data. This service is used in the backend by the Climate Data Store to access the CMIP6 data pool. The Rook service is deployed for load-balancing at CEDA (UK), IPSL (FR) and DKRZ (DE).
+[Rooki](https://github.com/roocs/rooki) is a Python client to interact with [Rook](https://github.com/roocs/rook) data subsetting service for climate model data. This service is used in the backend by the Climate Data Store to access the CMIP6 data pool. The Rook service is deployed for load-balancing at CEDA (UK), IPSL (FR) and DKRZ (DE).
+
+ROOK: **R**emote **O**perations **O**n **K**limadaten
 
 Open the notebook [notebooks/rooki.ipynb](https://nbviewer.org/github/atmodatcode/tgif_copernicus/blob/main/notebooks/rooki.ipynb).
 
