@@ -31,7 +31,7 @@ Search:
 * Variable: Near-surface air temperature (tas)
 * Model: MPI-ESM1-2-HR (Germany)
 * Time: 2000-01-01/2000-01-31
-* Area (Africa): -40W,70E,70N,-40S
+* Area (Africa): -40W, 70E, 70N, -40S
 
 Submit Formular.
 
