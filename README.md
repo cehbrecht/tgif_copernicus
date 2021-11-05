@@ -19,6 +19,10 @@ https://cds.climate.copernicus.eu
 You need to register and login to the Climate Data Store:
 https://cds.climate.copernicus.eu/
 
+### Coperniucs Climate Data Store Application
+
+https://cds.climate.copernicus.eu/cdsapp#!/software/app-tourism-fire-danger-indicators-projections?tab=app
+
 ### Download CMIP6 Datasets
 
 Search Datasets for **CMIP6**:
